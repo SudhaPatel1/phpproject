@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;  
+}
+.header{
+background-color: red;
+height: 50px;
+}
+ul{
+    list-style: none;
+}
+li{
+    margin-left: 20%;
+    display: inline-flex;
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+}
