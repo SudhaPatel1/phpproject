@@ -1,0 +1,29 @@
+.f{
+    background-color: aqua;
+    height: 50vh;
+    width: 50%;
+    margin-left: 100spx;
+}
+
+.input-group{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px;
+}
+
+.input-group div input{
+    padding: 10px;
+    border: none;
+    margin: 5px;
+}
+.btn{
+    margin-left: 50%;
+    margin-top: 10px;
+    border: none;
+    background-color: green;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
