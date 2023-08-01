@@ -1,0 +1,17 @@
+.about{
+    padding: 15px;
+    background-color: aqua;
+}
+
+.gallery{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.gallery .item{
+    width: 25vw;
+    border: 3px solid red;
+    border-radius: 5px;
+}
+
