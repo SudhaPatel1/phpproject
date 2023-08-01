@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+div.gallery{
+    border: 3px solid red;
+ 
+}
+div.gallery:hover{
+    border: 3px solid blue;
+}
+div.gallery img1{
+    width: 100%;
+    height: auto;
+   
+
+   
+}
+
+
+*{
+    box-sizing: border-box;
+   
+   
+}
+.responsive{
+    padding: 0 6px;
+    float:left ;
+    width: 24.99 99%;
+}
+@media screen and(max-width:700px) {
+
+    .responsive{
+        width: 49.9999%;
+        margin: 6px 0px;
+    }
+    
+}
+@media anyscreen and(max-width:500px) {
+    .responsive{
+        width: 100%;
+    }
+    
+}
+.clear fix:after{
+    content: "top";
+    display: table;
+    clear: both;
+}
